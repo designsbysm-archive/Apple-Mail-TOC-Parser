@@ -7,11 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D73CEE3B1C40B58C0001E4E1 /* test.mbox in Resources */ = {isa = PBXBuildFile; fileRef = D73CEE3A1C40B58C0001E4E1 /* test.mbox */; };
+		D73CEE3C1C40B58C0001E4E1 /* test.mbox in Resources */ = {isa = PBXBuildFile; fileRef = D73CEE3A1C40B58C0001E4E1 /* test.mbox */; };
 		D7726DD91C3B300D0015C209 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D7726DD81C3B300D0015C209 /* AppDelegate.m */; };
 		D7726DDC1C3B300D0015C209 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D7726DDB1C3B300D0015C209 /* main.m */; };
 		D7726DDE1C3B300D0015C209 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7726DDD1C3B300D0015C209 /* Assets.xcassets */; };
 		D7726DE11C3B300D0015C209 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7726DDF1C3B300D0015C209 /* MainMenu.xib */; };
 		D7726DEC1C3B300D0015C209 /* AppleMailTOCParserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D7726DEB1C3B300D0015C209 /* AppleMailTOCParserTests.m */; };
+		D7726DF81C3B308E0015C209 /* AppleMailTOCParser.m in Sources */ = {isa = PBXBuildFile; fileRef = D7726DF71C3B308E0015C209 /* AppleMailTOCParser.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,7 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		D7726DD41C3B300D0015C209 /* AppleMailTOCParser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppleMailTOCParser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D73CEE3A1C40B58C0001E4E1 /* test.mbox */ = {isa = PBXFileReference; lastKnownFileType = folder; path = test.mbox; sourceTree = "<group>"; };
+		D7726DD41C3B300D0015C209 /* AppleMailTOCParser Example App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AppleMailTOCParser Example App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7726DD71C3B300D0015C209 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D7726DD81C3B300D0015C209 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		D7726DDB1C3B300D0015C209 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -35,6 +39,8 @@
 		D7726DE71C3B300D0015C209 /* AppleMailTOCParserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppleMailTOCParserTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7726DEB1C3B300D0015C209 /* AppleMailTOCParserTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppleMailTOCParserTests.m; sourceTree = "<group>"; };
 		D7726DED1C3B300D0015C209 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7726DF61C3B308E0015C209 /* AppleMailTOCParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppleMailTOCParser.h; sourceTree = "<group>"; };
+		D7726DF71C3B308E0015C209 /* AppleMailTOCParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppleMailTOCParser.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +61,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D73CEE3D1C40B6190001E4E1 /* Sample Apple Mailbox file */ = {
+			isa = PBXGroup;
+			children = (
+				D73CEE3A1C40B58C0001E4E1 /* test.mbox */,
+			);
+			name = "Sample Apple Mailbox file";
+			sourceTree = "<group>";
+		};
 		D7726DCB1C3B300D0015C209 = {
 			isa = PBXGroup;
 			children = (
@@ -67,7 +81,7 @@
 		D7726DD51C3B300D0015C209 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D7726DD41C3B300D0015C209 /* AppleMailTOCParser.app */,
+				D7726DD41C3B300D0015C209 /* AppleMailTOCParser Example App.app */,
 				D7726DE71C3B300D0015C209 /* AppleMailTOCParserTests.xctest */,
 			);
 			name = Products;
@@ -78,9 +92,11 @@
 			children = (
 				D7726DD71C3B300D0015C209 /* AppDelegate.h */,
 				D7726DD81C3B300D0015C209 /* AppDelegate.m */,
+				D7726DF91C3B30940015C209 /* Parser Class */,
 				D7726DDD1C3B300D0015C209 /* Assets.xcassets */,
 				D7726DDF1C3B300D0015C209 /* MainMenu.xib */,
 				D7726DE21C3B300D0015C209 /* Info.plist */,
+				D73CEE3D1C40B6190001E4E1 /* Sample Apple Mailbox file */,
 				D7726DDA1C3B300D0015C209 /* Supporting Files */,
 			);
 			path = AppleMailTOCParser;
@@ -103,12 +119,21 @@
 			path = AppleMailTOCParserTests;
 			sourceTree = "<group>";
 		};
+		D7726DF91C3B30940015C209 /* Parser Class */ = {
+			isa = PBXGroup;
+			children = (
+				D7726DF61C3B308E0015C209 /* AppleMailTOCParser.h */,
+				D7726DF71C3B308E0015C209 /* AppleMailTOCParser.m */,
+			);
+			name = "Parser Class";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D7726DD31C3B300D0015C209 /* AppleMailTOCParser */ = {
+		D7726DD31C3B300D0015C209 /* AppleMailTOCParser Example App */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D7726DF01C3B300D0015C209 /* Build configuration list for PBXNativeTarget "AppleMailTOCParser" */;
+			buildConfigurationList = D7726DF01C3B300D0015C209 /* Build configuration list for PBXNativeTarget "AppleMailTOCParser Example App" */;
 			buildPhases = (
 				D7726DD01C3B300D0015C209 /* Sources */,
 				D7726DD11C3B300D0015C209 /* Frameworks */,
@@ -118,9 +143,9 @@
 			);
 			dependencies = (
 			);
-			name = AppleMailTOCParser;
+			name = "AppleMailTOCParser Example App";
 			productName = AppleMailTOCParser;
-			productReference = D7726DD41C3B300D0015C209 /* AppleMailTOCParser.app */;
+			productReference = D7726DD41C3B300D0015C209 /* AppleMailTOCParser Example App.app */;
 			productType = "com.apple.product-type.application";
 		};
 		D7726DE61C3B300D0015C209 /* AppleMailTOCParserTests */ = {
@@ -172,7 +197,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D7726DD31C3B300D0015C209 /* AppleMailTOCParser */,
+				D7726DD31C3B300D0015C209 /* AppleMailTOCParser Example App */,
 				D7726DE61C3B300D0015C209 /* AppleMailTOCParserTests */,
 			);
 		};
@@ -183,6 +208,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D73CEE3B1C40B58C0001E4E1 /* test.mbox in Resources */,
 				D7726DDE1C3B300D0015C209 /* Assets.xcassets in Resources */,
 				D7726DE11C3B300D0015C209 /* MainMenu.xib in Resources */,
 			);
@@ -192,6 +218,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D73CEE3C1C40B58C0001E4E1 /* test.mbox in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,6 +229,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7726DF81C3B308E0015C209 /* AppleMailTOCParser.m in Sources */,
 				D7726DDC1C3B300D0015C209 /* main.m in Sources */,
 				D7726DD91C3B300D0015C209 /* AppDelegate.m in Sources */,
 			);
@@ -220,7 +248,7 @@
 /* Begin PBXTargetDependency section */
 		D7726DE91C3B300D0015C209 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D7726DD31C3B300D0015C209 /* AppleMailTOCParser */;
+			target = D7726DD31C3B300D0015C209 /* AppleMailTOCParser Example App */;
 			targetProxy = D7726DE81C3B300D0015C209 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -349,7 +377,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.alfonsotesauro.AppleMailTOCParserTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AppleMailTOCParser.app/Contents/MacOS/AppleMailTOCParser";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AppleMailTOCParser Example App.app/Contents/MacOS/AppleMailTOCParser Example App";
 			};
 			name = Debug;
 		};
@@ -362,7 +390,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.alfonsotesauro.AppleMailTOCParserTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AppleMailTOCParser.app/Contents/MacOS/AppleMailTOCParser";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AppleMailTOCParser Example App.app/Contents/MacOS/AppleMailTOCParser Example App";
 			};
 			name = Release;
 		};
@@ -378,13 +406,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D7726DF01C3B300D0015C209 /* Build configuration list for PBXNativeTarget "AppleMailTOCParser" */ = {
+		D7726DF01C3B300D0015C209 /* Build configuration list for PBXNativeTarget "AppleMailTOCParser Example App" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D7726DF11C3B300D0015C209 /* Debug */,
 				D7726DF21C3B300D0015C209 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D7726DF31C3B300D0015C209 /* Build configuration list for PBXNativeTarget "AppleMailTOCParserTests" */ = {
 			isa = XCConfigurationList;
@@ -393,6 +422,7 @@
 				D7726DF51C3B300D0015C209 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
