@@ -16,4 +16,4 @@ pod 'FMDB'
 # pod 'FMDB/standalone/FTS'   # FMDB with latest SQLite amalgamation source and FTS
 # pod 'FMDB/SQLCipher'   # FMDB with SQLCipher
 ```
-<img src="Resources/Screenshot.png" width="715" alt="Sparkle shows familiar update window with release notes">
+<img src="Images/mbox folder.png" width="715" alt="Sparkle shows familiar update window with release notes">
