@@ -53,7 +53,7 @@
     return self;
 }
 
--(int32_t)mailcount
+-(int32_t)mailCount
 {
     if (self.tocAsData == NULL || [self.tocAsData length] < 10)
         return -1;
@@ -94,7 +94,7 @@
         
     int32_t nextEmailOffset = 0;
     
-    while (count < self.mailcount)
+    while (count < self.mailCount)
     {
 
         NSRange emailLengthRange = NSMakeRange(chunkStart-8,4);
@@ -129,7 +129,7 @@
         
         count++;
 
-        if (count == self.mailcount) // The last mail's tag data is not correctly formed in the format, so we skip
+        if (count == self.mailCount) // The last mail's tag data is not correctly formed in the format, so we skip
             continue;
         
         NSRange nextChunkSizeRange = NSMakeRange(chunkStart+chunkSizeAsInt-16,4);

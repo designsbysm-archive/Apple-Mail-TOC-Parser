@@ -33,7 +33,7 @@
     
     AppleMailTOCParser *parser = [[AppleMailTOCParser alloc] initWithURL:t_o_cFileURL];
     
-    self.mailCount = [parser mailcount];
+    self.mailCount = [parser mailCount];
     
     self.parsedObjects = [parser parse];
     

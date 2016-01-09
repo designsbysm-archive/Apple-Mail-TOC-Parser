@@ -12,11 +12,12 @@
 
 @property (strong) NSData    *tocAsData;
 
-@property (readonly) int32_t    mailcount;
+@property (readonly) int32_t    mailCount;
 
 -(instancetype)initWithData:(NSData *)data;
 -(instancetype)initWithPath:(NSString *)path;
 -(instancetype)initWithURL:(NSURL *)url;
 -(NSArray *)parse;
+
 
 @end
