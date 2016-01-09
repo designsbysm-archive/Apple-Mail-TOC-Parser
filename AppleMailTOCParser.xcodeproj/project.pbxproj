@@ -39,8 +39,8 @@
 		D7726DE71C3B300D0015C209 /* AppleMailTOCParserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppleMailTOCParserTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7726DEB1C3B300D0015C209 /* AppleMailTOCParserTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppleMailTOCParserTests.m; sourceTree = "<group>"; };
 		D7726DED1C3B300D0015C209 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D7726DF61C3B308E0015C209 /* AppleMailTOCParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppleMailTOCParser.h; sourceTree = "<group>"; };
-		D7726DF71C3B308E0015C209 /* AppleMailTOCParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppleMailTOCParser.m; sourceTree = "<group>"; };
+		D7726DF61C3B308E0015C209 /* AppleMailTOCParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppleMailTOCParser.h; path = "../Parser Class/AppleMailTOCParser.h"; sourceTree = "<group>"; };
+		D7726DF71C3B308E0015C209 /* AppleMailTOCParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppleMailTOCParser.m; path = "../Parser Class/AppleMailTOCParser.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,7 +72,7 @@
 		D7726DCB1C3B300D0015C209 = {
 			isa = PBXGroup;
 			children = (
-				D7726DD61C3B300D0015C209 /* AppleMailTOCParser */,
+				D7726DD61C3B300D0015C209 /* AppleMailTOCParser Example App */,
 				D7726DEA1C3B300D0015C209 /* AppleMailTOCParserTests */,
 				D7726DD51C3B300D0015C209 /* Products */,
 			);
@@ -87,18 +87,19 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D7726DD61C3B300D0015C209 /* AppleMailTOCParser */ = {
+		D7726DD61C3B300D0015C209 /* AppleMailTOCParser Example App */ = {
 			isa = PBXGroup;
 			children = (
 				D7726DD71C3B300D0015C209 /* AppDelegate.h */,
 				D7726DD81C3B300D0015C209 /* AppDelegate.m */,
-				D7726DF91C3B30940015C209 /* Parser Class */,
 				D7726DDD1C3B300D0015C209 /* Assets.xcassets */,
 				D7726DDF1C3B300D0015C209 /* MainMenu.xib */,
 				D7726DE21C3B300D0015C209 /* Info.plist */,
+				D7726DF91C3B30940015C209 /* Parser Class */,
 				D73CEE3D1C40B6190001E4E1 /* Sample Apple Mailbox file */,
 				D7726DDA1C3B300D0015C209 /* Supporting Files */,
 			);
+			name = "AppleMailTOCParser Example App";
 			path = AppleMailTOCParser;
 			sourceTree = "<group>";
 		};
