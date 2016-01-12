@@ -28,7 +28,7 @@ emailLength
 Example
 
 ```
-AppleMailOCParser tocParser = [[AppleMailTOCParser alloc] initWithPath:pathToTable_of_Contents];
+AppleMailOCParser *tocParser = [[AppleMailTOCParser alloc] initWithPath:pathToTable_of_Contents];
 
 NSArray *emailDictionaries = [tocparser parse];
 ```
