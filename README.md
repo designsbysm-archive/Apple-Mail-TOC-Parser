@@ -7,7 +7,9 @@ This repository contains a small Objective-C Parser Class
 for the table_of_contents files found in Apple Mail mailboxes
 exports. This was written just for fun, it is mainly for the
 curious, although it could be useful for handling huge mailboxes.
-An example App Xcode target is included in the project.
+An example App Xcode target is included in the project, and a sample
+Apple MAil Exported mailbox. It is taken from an apache mailing list,
+I hope it can be considered of public domain.
 
 Usage :
 
