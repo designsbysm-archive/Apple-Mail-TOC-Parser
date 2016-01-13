@@ -1,4 +1,4 @@
-# Apple Mail TOC Parser
+# Apple Mail table-of-contents Parser
 
 
 
