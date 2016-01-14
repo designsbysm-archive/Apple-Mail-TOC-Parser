@@ -34,4 +34,12 @@ AppleMailOCParser *tocParser = [[AppleMailTOCParser alloc] initWithPath:pathToTa
 
 NSArray *emailDictionaries = [tocparser parse];
 ```
+
+Appearance of a .mbox folder :
+
 <img src="Images/mbox folder.png" width="715" alt="Sparkle shows familiar update window with release notes">
+
+Appearance of the contents of a .mbox folder :
+
+<img src="Images/mbox folder contents.png" width="715" alt="Sparkle shows familiar update window with release notes">
+
